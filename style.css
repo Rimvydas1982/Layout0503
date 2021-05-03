@@ -71,6 +71,7 @@ z-index: 20;
 } */
 .cont--item1 h3{opacity: 0;}
 .cont--item1 h2{color:var(--white-color);}
+.cont--item1:hover{padding-top: 150px;}
 
 .cont--item1 h3:hover{
 opacity: 1;
