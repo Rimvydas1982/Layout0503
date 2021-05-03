@@ -3,13 +3,19 @@
 .dropdown{position: relative;
 display:block;}
 
+.container{
+    background-image: url(foto/first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;}
 
 .cont--item1{text-align: center;
     padding-top: 180px;
-     background-image: url(foto/first.jpg);
-     width: 50%;
+     /* width: 50%;
     height: 400px;
-    z-index: 1;}
+    z-index: 1; */
+}
 
 }
 
@@ -22,6 +28,14 @@ display:block;}
 
 
 @media screen and (max-width: 500px){
+
+.container{
+        background-image: url(foto/second.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;}
+
  .cont--item1{width: 100%;
-    background-image: url(foto/second.jpg)}   
+    height: 100%;}   
 }

@@ -26,40 +26,43 @@ margin-right: 15px;
 font-size: 25px;
 text-decoration: none;
 color: black;}
+
 .navi--nodecor:hover{background-color: blue;}
 .navi--nodecor1:hover{background-color: crimson;}
 .navi--nodecor2:hover{background-color: cyan;}
 .navi--nodecor3:hover{background-color: darkgreen;}
 .navi--nodecor4:hover{background-color: darkorange;}
 
-.container{display: flex;
-flex-wrap: wrap;    
-}
-.cont--item1{text-align: center;
-padding-top: 180px;
+section{display: flex;
+flex-wrap: wrap;}
+
+.container{
 background-image: url(foto/third.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 width: 25%;
 height: 400px;
+    
+}
+.cont--item1{text-align: center;
+padding-top: 180px;
+width: 100%;
+height: 100%;
 z-index: 1;}
+.cont--item1:hover{background-color: rgba(128, 128, 128, 0.479);}
 
-.cont--item1:hover{
+/* .cont--item1:hover{
     opacity: 0.6;
 z-index: 20;
+} */
+.cont--item1 h3{opacity: 0;}
+.cont--item1 h2{color:var(--white-color);}
+
+.cont--item1 h3:hover{
+opacity: 1;
+color:var(--white-color);
 }
 
-.cont--item1 h2{color:var(--white-color);}
-.cont--item1 h3{color:var(--white-color);
-opacity: 0;}
-.cont--item1 h3:hover{
-opacity: 1;}
-
-
-.layer:hover{height: 100%;
-    width: 100%;
-    background-color:grey;
-z-index: 10;}
 
 /* Planchet */
 .dropdown-content {
