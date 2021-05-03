@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px){
+.navi{display: none;}
+.dropdown{position: relative;
+display:block;}
+
+
+.cont--item1{text-align: center;
+    padding-top: 180px;
+     background-image: url(foto/first.jpg);
+     width: 50%;
+    height: 400px;
+    z-index: 1;}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+ .cont--item1{width: 100%;
+    background-image: url(foto/second.jpg)}   
+}
